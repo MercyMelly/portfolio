@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MELLY</title>
+    <link rel="stylesheet" href="/shared.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" class="icon" href="/images/favicon.ico">
+</head>
+<body>
+    <header class="mainHeader">
+        <nav class="mainNav">
+            <ul class="navItems">
+                <li class="navItem"><a href="/index.html">Home</a></li>
+                <li class="navItem"><a href="/about/about.html">About</a></li>
+                <li class="navItem"><a href="/project/projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="line">
+        <hr color="#EFBF04" size="2px" width="80%">
+    </div>
+
+    <main class="contact-header">
+        <h1>Contact Me</h1>
+        <p>Let's connect.Fill out the form below or reach me through my social links.</p>
+    </main>
+
+    <div class="contact-container">
+        <form class="contact-form" name="contact" method="POST" data-netlify="true">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <input type="hidden" name="form-name" value="contact">
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-details">
+            <h2>Get in Touch</h2>
+            <p>Email: <a href="mailto:youremail@example.com">mellymercy047@gmail.com</a></p>
+            <p>Phone: +254 722640651</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mercy-jepchirchir-936977282/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/MercyMelly" target="_blank">GitHub</a>
+                <a href="https://app.netlify.com/teams/mercymelly/sites" target="_blank">Netlify</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

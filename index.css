@@ -1,0 +1,98 @@
+body{
+    box-sizing: border-box;
+}   
+.heading {
+    color: #EFBF04;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+}
+
+.heading h1{
+    font-size: 55px;
+}
+
+.heading p {
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #178582;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.introText p {
+    font-size: 20px;
+    color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+}
+
+.ctaContainer {
+    margin-top: 50px;
+}
+
+.ctaButton {
+    display: inline-block;
+    background-color: transparent;
+    color: #EFBF04;
+    border: 2px solid #EFBF04;
+    padding: 12px 24px;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: #EFBF04;
+    color: #0A1828;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(239, 191, 4, 0.3);
+}
+
+@media screen and (max-width: 900px) {
+    .heading h1 {
+        font-size: 48px; 
+        }
+}
+
+@media screen and (max-width: 768px) {
+    .navItems {
+        justify-content: center;
+    }
+
+    .navItem {
+        margin: 0 15px;
+    }
+
+    .heading h1 {
+        font-size: 40px; 
+    }
+
+    .heading p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading h1 {
+        font-size: 32px; 
+    }
+
+    .heading p {
+        font-size: 17px; 
+    }
+
+    .ctaContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ctaButton {
+        width: 100%;
+        text-align: center;
+        padding: 12px 20px;
+    }
+}
+
