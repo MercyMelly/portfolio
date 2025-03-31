@@ -2,25 +2,17 @@
 
 A personal portfolio website showcasing projects and providing contact options.
 
-Features
-Responsive design
+Features: Responsive design, Contact form (Netlify Forms & Formspree), Social media links
 
-Contact form (Netlify Forms & Formspree)
+Technologies: HTML, CSS, JavaScript
 
-Social media links
+Setup:
 
-Technologies
-HTML, CSS, JavaScript
+Clone the repo, cd the repo
 
-Netlify Forms & Formspree for form handling
-
-Setup
-Clone the repo:
-git clone https://github.com/MercyMelly/your-repo.git
-cd your-repo
 Open index.html in a browser.
 
-Contact
-Email: mellymercy047@gmail.com
-GitHub: MercyMelly
+Contact: Email: mellymercy047@gmail.com
+
+Author: Mercymelly
 
