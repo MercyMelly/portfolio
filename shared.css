@@ -9,7 +9,7 @@ body{
 
 .mainNav{
     display: flex;
-    justify-content: flex-end; 
+    justify-content: center; 
     padding: 40px;
 }
 
@@ -35,4 +35,11 @@ nav li a {
 nav li a:hover {
     border-radius: 3px ;  
     border: solid 2px #EFBF04;
+}
+.footer {
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+    border-top: 1px solid rgba(239, 191, 4, 0.3);
+    color: #EFBF04;
 }
