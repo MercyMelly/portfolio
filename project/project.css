@@ -103,10 +103,7 @@
     transition: all 0.3s ease;
 }
 
-.live-link {
-    background-color: #EFBF04;
-    color: #0A1828;
-}
+
 
 .github-link {
     background-color: transparent;
@@ -114,7 +111,7 @@
     color: #EFBF04;
 }
 
-.live-link:hover, .github-link:hover {
+.github-link:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -160,9 +157,26 @@
     background-color: #f7cc2c;
 }
 
-/* for small phone */
 @media (max-width: 768px) {
     .projects-container {
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     }
 }
+@media screen and (max-width: 1024px) {
+    .projects-header h1 {
+        font-size: 30px;
+    }
+    .projects-header p {
+        font-size: 14px;
+    }
+    .contact-cta h2 {
+        font-size: 25px;
+    }
+    .contact-cta p {
+        font-size: 14px;
+
+    }
+}
+
+
+
