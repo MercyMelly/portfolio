@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+@media (max-width: 700px){
+    .about-container {
+        flex-direction: column;
+    }
+}
+
 .about-image {
     flex: 1;
     text-align: center;
@@ -98,18 +104,4 @@
 }
 
 
-/* small phone */
-@media (max-width: 768px) {
-    .about-container {
-        flex-direction: column;
-        margin: 40px auto;
-    }
-    
-    .profile-image {
-        width: 200px;
-        height: 200px;
-        margin-bottom: 30px;
-    }
-    
-}
 

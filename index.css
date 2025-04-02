@@ -1,5 +1,8 @@
 body{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }   
 .heading {
     color: #EFBF04;
@@ -51,119 +54,37 @@ body{
     box-shadow: 0 5px 15px rgba(239, 191, 4, 0.3);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
+    *{
+        margin: 0;
+        width: 80%;
+    }
     .heading h1 {
-        font-size: 48px; 
-        }
-}
-
-@media screen and (max-width: 768px) {
-    .navItems {
-        justify-content: center;
-    }
-
-    .navItem {
-        margin: 0 15px;
-    }
-
-    .heading h1 {
-        font-size: 40px; 
-    }
-
-    .heading p {
-        font-size: 20px;
-    }
-}
-
- /* Media Queries */
- @media screen and (max-width: 900px) {
-    .heading h1 {
-        font-size: 48px; 
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .mainNav {
-        padding: 20px;
-    }
-    
-    .navItems {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-    
-    .navItem {
-        margin: 0 10px;
-    }
-    
-    .heading h1 {
-        font-size: 40px; 
+        font-size: 28px;
+        line-height: 1.2;
     }
     
     .heading p {
-        font-size: 20px;
-    }
-    
-    .introText p {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .mainNav {
-        padding: 10px;
-    }
-    
-    .navItems {
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-    }
-    
-    .heading h1 {
-        font-size: 32px; 
-    }
-    
-    .heading p {
-        font-size: 18px; 
-        letter-spacing: 2px;
-    }
-    
-    .introText p {
         font-size: 16px;
-    }
-    
-    .ctaContainer {
-        flex-direction: column;
-        gap: 20px;
-        margin-top: 30px;
-    }
-    
-    .ctaButton {
-        width: 100%;
-        text-align: center;
-        padding: 10px 20px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .navItems {
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-    }
-    
-    .heading h1 {
-        font-size: 28px; 
-    }
-    
-    .heading p {
-        font-size: 16px; 
         letter-spacing: 1px;
+        line-height: 1.3;
     }
     
     .introText p {
         font-size: 14px;
+        line-height: 1.6;
+        padding: 0 10px;
+    }
+    
+    .ctaContainer {
+        padding: 0 15px;
+    }
+    .move-down{
+        padding: 20px;
+    }
+    
+    .ctaButton {
+        padding: 10px 20px;
     }
 }
+
