@@ -123,6 +123,11 @@
 }
 
 @media (max-width: 480px) {
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
     .gallery-container {
         grid-template-columns: 1fr;
     }
@@ -136,3 +141,4 @@
         padding: 20px;
     }
 }
+
