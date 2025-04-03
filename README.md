@@ -1,10 +1,13 @@
 # portfolio
 
-A personal portfolio website showcasing projects and providing contact options.
+A personal portfolio website showcasing projects , interests and providing contact options.
 
-Features: Responsive design, Contact form (Netlify Forms & Formspree), Social media links
+Features: Responsive design, Contact form.
 
 Technologies: HTML, CSS, JavaScript
+The deployed project: https://jepchirchir.netlify.app/
+
+the deployed pages here in github is not correct
 
 Setup:
 
